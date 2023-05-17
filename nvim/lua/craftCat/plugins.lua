@@ -8,14 +8,14 @@ vim.cmd [[packadd packer.nvim]]
 
 packer.startup(function(use)
   use 'wbthomason/packer.nvim'
-  -- use {
-  --   'sainnhe/gruvbox-material',
-  --   requires = { 'tjdevries/colorbuddy.nvim' }
-  -- }
   use {
-    'svrana/neosolarized.nvim',
+    'sainnhe/gruvbox-material',
     requires = { 'tjdevries/colorbuddy.nvim' }
   }
+  -- use {
+  --   'svrana/neosolarized.nvim',
+  --   requires = { 'tjdevries/colorbuddy.nvim' }
+  -- }
   use 'nvim-lualine/lualine.nvim'       -- Statusline
   use 'nvim-lua/plenary.nvim'           -- Common utilities
   use 'onsails/lspkind-nvim'            -- vscode-like pictograms
@@ -31,8 +31,9 @@ packer.startup(function(use)
   use 'lambdalisue/fern-git-status.vim' -- file view show git status
   -- use 'dense-analysis/ale'              -- eslint plugin
 
-  use 'SirVer/ultisnips' -- snippets
+  use 'SirVer/ultisnips'    -- snippets
   use 'mlaursen/vim-react-snippets'
+  use 'Yggdroot/indentLine' -- indent line
   use({
     "kylechui/nvim-surround",
     tag = "*", -- Use for stability; omit to use `main` branch for the latest features

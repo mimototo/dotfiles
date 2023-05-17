@@ -9,8 +9,10 @@ prettier.setup {
     'javascriptreact',
     'typescript',
     'typescriptreact',
+    'prisma',
     'json',
     'scss',
-    'less'
+    'less',
+    'astro',
   }
 }

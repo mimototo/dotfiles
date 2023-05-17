@@ -119,6 +119,16 @@ _G.packer_plugins = {
     path = "/Users/mimototo/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
   },
+  ["gruvbox-material"] = {
+    loaded = true,
+    path = "/Users/mimototo/.local/share/nvim/site/pack/packer/start/gruvbox-material",
+    url = "https://github.com/sainnhe/gruvbox-material"
+  },
+  indentLine = {
+    loaded = true,
+    path = "/Users/mimototo/.local/share/nvim/site/pack/packer/start/indentLine",
+    url = "https://github.com/Yggdroot/indentLine"
+  },
   ["lspkind-nvim"] = {
     loaded = true,
     path = "/Users/mimototo/.local/share/nvim/site/pack/packer/start/lspkind-nvim",
@@ -148,11 +158,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/mimototo/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
-  },
-  ["neosolarized.nvim"] = {
-    loaded = true,
-    path = "/Users/mimototo/.local/share/nvim/site/pack/packer/start/neosolarized.nvim",
-    url = "https://github.com/svrana/neosolarized.nvim"
   },
   ["null-ls.nvim"] = {
     loaded = true,
