@@ -2,6 +2,13 @@ local keymap = vim.keymap
 
 keymap.set('n', 'x', '"_x')
 
+-- Swap j, k with gj, gk
+keymap.set('n', 'j', 'gj')
+keymap.set('n', 'k', 'gk')
+
+keymap.set('n', 'gj', 'j')
+keymap.set('n', 'gk', 'k')
+
 -- Increment/decrement
 keymap.set('n', '+', '<C-a>')
 keymap.set('n', '-', '<C-x>')
@@ -36,7 +43,6 @@ keymap.set('n', '<C-w><down>', '<C-w>-')
 
 -- Insert
 keymap.set('i', 'jk', '<ESC>')
-
 
 -- Visual
 keymap.set('v', 'v', '$h')

@@ -1,6 +1,13 @@
 
 nnoremap x "_x
 
+" Swap j, k with gj, gk
+nnoremap j gj
+nnoremap k gk
+
+nnoremap gj j
+nnoremap gk k
+
 " Increment/decrement
 nnoremap + <C-a>
 nnoremap - <C-x>
